@@ -1,0 +1,12 @@
+# ShipTrack dataset config (Ultralytics format)
+# Update `path:` to your local dataset root.
+path: D:/data/ShipTrack
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Cargo
+  1: Tanker
+  2: Unknown
+  3: Crane Barge
